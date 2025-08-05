@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using MyApp.Data;
 
@@ -10,9 +11,11 @@ using MyApp.Data;
 namespace MyApp.Migrations
 {
     [DbContext(typeof(MyAppContext))]
-    partial class MyAppContextModelSnapshot : ModelSnapshot
+    [Migration("20250805205016_One to One")]
+    partial class OnetoOne
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -21,35 +24,6 @@ namespace MyApp.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("MyApp.Models.Category", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<string>("Name")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Categories");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = 1,
-                            Name = "Electronics"
-                        },
-                        new
-                        {
-                            Id = 2,
-                            Name = "Books"
-                        });
-                });
-
             modelBuilder.Entity("MyApp.Models.Item", b =>
                 {
                     b.Property<int>("Id")
@@ -57,9 +31,6 @@ namespace MyApp.Migrations
                         .HasColumnType("int");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<int?>("CategoryId")
-                        .HasColumnType("int");
 
                     b.Property<int>("ItemId")
                         .HasColumnType("int");
@@ -75,8 +46,6 @@ namespace MyApp.Migrations
                         .HasColumnType("int");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("CategoryId");
 
                     b.ToTable("Items");
 
@@ -123,15 +92,6 @@ namespace MyApp.Migrations
                         });
                 });
 
-            modelBuilder.Entity("MyApp.Models.Item", b =>
-                {
-                    b.HasOne("MyApp.Models.Category", "Category")
-                        .WithMany("Items")
-                        .HasForeignKey("CategoryId");
-
-                    b.Navigation("Category");
-                });
-
             modelBuilder.Entity("MyApp.Models.SerialNumber", b =>
                 {
                     b.HasOne("MyApp.Models.Item", "Item")
@@ -139,11 +99,6 @@ namespace MyApp.Migrations
                         .HasForeignKey("MyApp.Models.SerialNumber", "ItemId");
 
                     b.Navigation("Item");
-                });
-
-            modelBuilder.Entity("MyApp.Models.Category", b =>
-                {
-                    b.Navigation("Items");
                 });
 
             modelBuilder.Entity("MyApp.Models.Item", b =>
