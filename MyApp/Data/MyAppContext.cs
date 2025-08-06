@@ -15,6 +15,18 @@ namespace MyApp.Data
         // Leaving it empty means you rely on EF Core's default behavior.
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            modelBuilder.Entity<ItemClient>().HasKey(ic => new { ic.ItemId, ic.ClientId });
+
+            modelBuilder.Entity<ItemClient>()
+                .HasOne(i => i.item)
+                .WithMany(ic => ic.ItemClients)
+                .HasForeignKey(ic => ic.ItemId);
+
+            modelBuilder.Entity<ItemClient>()
+                .HasOne(c => c.Client)
+                .WithMany(ic => ic.ItemClients)
+                .HasForeignKey(c => c.ClientId);
+
             modelBuilder.Entity<Item>().HasData(
                 new Item { Id=4, Name="MacBook Pro", Price=2000, SerialNumberId=10}
                 );
@@ -36,5 +48,8 @@ namespace MyApp.Data
         public DbSet<Item> Items { get; set; }
         public DbSet<SerialNumber> SerialNumbers { get; set; }
         public DbSet<Category> Categories { get; set; }
+        public DbSet<Client> Clients { get; set; }
+        public DbSet<ItemClient> ItemClients { get; set; }
+
     }
 }

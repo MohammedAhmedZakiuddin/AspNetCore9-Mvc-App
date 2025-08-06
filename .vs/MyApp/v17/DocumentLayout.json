@@ -3,44 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\ahmed\\source\\repos\\MyApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D9E1FAAA-21C9-40C4-8849-57C7A2C616F9}|MyApp\\MyApp.csproj|c:\\users\\ahmed\\source\\repos\\myapp\\myapp\\models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9E1FAAA-21C9-40C4-8849-57C7A2C616F9}|MyApp\\MyApp.csproj|solutionrelative:myapp\\models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D9E1FAAA-21C9-40C4-8849-57C7A2C616F9}|MyApp\\MyApp.csproj|c:\\users\\ahmed\\source\\repos\\myapp\\myapp\\data\\myappcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D9E1FAAA-21C9-40C4-8849-57C7A2C616F9}|MyApp\\MyApp.csproj|solutionrelative:myapp\\data\\myappcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D9E1FAAA-21C9-40C4-8849-57C7A2C616F9}|MyApp\\MyApp.csproj|c:\\users\\ahmed\\source\\repos\\myapp\\myapp\\views\\items\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D9E1FAAA-21C9-40C4-8849-57C7A2C616F9}|MyApp\\MyApp.csproj|solutionrelative:myapp\\views\\items\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D9E1FAAA-21C9-40C4-8849-57C7A2C616F9}|MyApp\\MyApp.csproj|c:\\users\\ahmed\\source\\repos\\myapp\\myapp\\views\\items\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D9E1FAAA-21C9-40C4-8849-57C7A2C616F9}|MyApp\\MyApp.csproj|solutionrelative:myapp\\views\\items\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D9E1FAAA-21C9-40C4-8849-57C7A2C616F9}|MyApp\\MyApp.csproj|c:\\users\\ahmed\\source\\repos\\myapp\\myapp\\views\\items\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D9E1FAAA-21C9-40C4-8849-57C7A2C616F9}|MyApp\\MyApp.csproj|solutionrelative:myapp\\views\\items\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D9E1FAAA-21C9-40C4-8849-57C7A2C616F9}|MyApp\\MyApp.csproj|c:\\users\\ahmed\\source\\repos\\myapp\\myapp\\views\\items\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D9E1FAAA-21C9-40C4-8849-57C7A2C616F9}|MyApp\\MyApp.csproj|solutionrelative:myapp\\views\\items\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D9E1FAAA-21C9-40C4-8849-57C7A2C616F9}|MyApp\\MyApp.csproj|c:\\users\\ahmed\\source\\repos\\myapp\\myapp\\controllers\\itemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D9E1FAAA-21C9-40C4-8849-57C7A2C616F9}|MyApp\\MyApp.csproj|solutionrelative:myapp\\controllers\\itemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D9E1FAAA-21C9-40C4-8849-57C7A2C616F9}|MyApp\\MyApp.csproj|c:\\users\\ahmed\\source\\repos\\myapp\\myapp\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D9E1FAAA-21C9-40C4-8849-57C7A2C616F9}|MyApp\\MyApp.csproj|solutionrelative:myapp\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D9E1FAAA-21C9-40C4-8849-57C7A2C616F9}|MyApp\\MyApp.csproj|c:\\users\\ahmed\\source\\repos\\myapp\\myapp\\models\\serialnumber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D9E1FAAA-21C9-40C4-8849-57C7A2C616F9}|MyApp\\MyApp.csproj|solutionrelative:myapp\\models\\serialnumber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D9E1FAAA-21C9-40C4-8849-57C7A2C616F9}|MyApp\\MyApp.csproj|c:\\users\\ahmed\\source\\repos\\myapp\\myapp\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D9E1FAAA-21C9-40C4-8849-57C7A2C616F9}|MyApp\\MyApp.csproj|solutionrelative:myapp\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ahmed\\source\\repos\\MyApp\\MyApp\\Migrations\\20250805211022_One to Many.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MyApp\\Migrations\\20250805211022_One to Many.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D9E1FAAA-21C9-40C4-8849-57C7A2C616F9}|MyApp\\MyApp.csproj|c:\\users\\ahmed\\source\\repos\\myapp\\myapp\\controllers\\itemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9E1FAAA-21C9-40C4-8849-57C7A2C616F9}|MyApp\\MyApp.csproj|solutionrelative:myapp\\controllers\\itemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9E1FAAA-21C9-40C4-8849-57C7A2C616F9}|MyApp\\MyApp.csproj|c:\\users\\ahmed\\source\\repos\\myapp\\myapp\\models\\itemclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9E1FAAA-21C9-40C4-8849-57C7A2C616F9}|MyApp\\MyApp.csproj|solutionrelative:myapp\\models\\itemclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,59 +34,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Item.cs",
-              "DocumentMoniker": "C:\\Users\\ahmed\\source\\repos\\MyApp\\MyApp\\Models\\Item.cs",
-              "RelativeDocumentMoniker": "MyApp\\Models\\Item.cs",
-              "ToolTip": "C:\\Users\\ahmed\\source\\repos\\MyApp\\MyApp\\Models\\Item.cs",
-              "RelativeToolTip": "MyApp\\Models\\Item.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABeAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Client.cs",
+              "DocumentMoniker": "C:\\Users\\ahmed\\source\\repos\\MyApp\\MyApp\\Models\\Client.cs",
+              "RelativeDocumentMoniker": "MyApp\\Models\\Client.cs",
+              "ToolTip": "C:\\Users\\ahmed\\source\\repos\\MyApp\\MyApp\\Models\\Client.cs",
+              "RelativeToolTip": "MyApp\\Models\\Client.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-02T23:52:04.228Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "SerialNumber.cs",
-              "DocumentMoniker": "C:\\Users\\ahmed\\source\\repos\\MyApp\\MyApp\\Models\\SerialNumber.cs",
-              "RelativeDocumentMoniker": "MyApp\\Models\\SerialNumber.cs",
-              "ToolTip": "C:\\Users\\ahmed\\source\\repos\\MyApp\\MyApp\\Models\\SerialNumber.cs",
-              "RelativeToolTip": "MyApp\\Models\\SerialNumber.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-05T02:00:01.244Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Category.cs",
-              "DocumentMoniker": "C:\\Users\\ahmed\\source\\repos\\MyApp\\MyApp\\Models\\Category.cs",
-              "RelativeDocumentMoniker": "MyApp\\Models\\Category.cs",
-              "ToolTip": "C:\\Users\\ahmed\\source\\repos\\MyApp\\MyApp\\Models\\Category.cs",
-              "RelativeToolTip": "MyApp\\Models\\Category.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-05T21:05:57.606Z",
+              "WhenOpened": "2025-08-06T18:55:18.237Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "ItemClient.cs",
+              "DocumentMoniker": "C:\\Users\\ahmed\\source\\repos\\MyApp\\MyApp\\Models\\ItemClient.cs",
+              "RelativeDocumentMoniker": "MyApp\\Models\\ItemClient.cs",
+              "ToolTip": "C:\\Users\\ahmed\\source\\repos\\MyApp\\MyApp\\Models\\ItemClient.cs",
+              "RelativeToolTip": "MyApp\\Models\\ItemClient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T19:00:08.026Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "ItemsController.cs",
               "DocumentMoniker": "C:\\Users\\ahmed\\source\\repos\\MyApp\\MyApp\\Controllers\\ItemsController.cs",
               "RelativeDocumentMoniker": "MyApp\\Controllers\\ItemsController.cs",
               "ToolTip": "C:\\Users\\ahmed\\source\\repos\\MyApp\\MyApp\\Controllers\\ItemsController.cs",
               "RelativeToolTip": "MyApp\\Controllers\\ItemsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-02T05:28:24.43Z",
               "IsPinned": true,
@@ -110,85 +80,42 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\ahmed\\source\\repos\\MyApp\\MyApp\\Views\\Items\\Index.cshtml",
-              "RelativeDocumentMoniker": "MyApp\\Views\\Items\\Index.cshtml",
-              "ToolTip": "C:\\Users\\ahmed\\source\\repos\\MyApp\\MyApp\\Views\\Items\\Index.cshtml",
-              "RelativeToolTip": "MyApp\\Views\\Items\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-04T23:53:33.922Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\ahmed\\source\\repos\\MyApp\\MyApp\\Views\\Items\\Create.cshtml",
-              "RelativeDocumentMoniker": "MyApp\\Views\\Items\\Create.cshtml",
-              "ToolTip": "C:\\Users\\ahmed\\source\\repos\\MyApp\\MyApp\\Views\\Items\\Create.cshtml",
-              "RelativeToolTip": "MyApp\\Views\\Items\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-05T01:17:49.611Z",
+              "Title": "Item.cs",
+              "DocumentMoniker": "C:\\Users\\ahmed\\source\\repos\\MyApp\\MyApp\\Models\\Item.cs",
+              "RelativeDocumentMoniker": "MyApp\\Models\\Item.cs",
+              "ToolTip": "C:\\Users\\ahmed\\source\\repos\\MyApp\\MyApp\\Models\\Item.cs",
+              "RelativeToolTip": "MyApp\\Models\\Item.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T23:52:04.228Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\ahmed\\source\\repos\\MyApp\\MyApp\\Views\\Items\\Edit.cshtml",
-              "RelativeDocumentMoniker": "MyApp\\Views\\Items\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\ahmed\\source\\repos\\MyApp\\MyApp\\Views\\Items\\Edit.cshtml",
-              "RelativeToolTip": "MyApp\\Views\\Items\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAA==",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ahmed\\source\\repos\\MyApp\\MyApp\\Views\\Items\\Index.cshtml",
+              "RelativeDocumentMoniker": "MyApp\\Views\\Items\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ahmed\\source\\repos\\MyApp\\MyApp\\Views\\Items\\Index.cshtml",
+              "RelativeToolTip": "MyApp\\Views\\Items\\Index.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAB4AAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-05T01:18:33.754Z",
-              "IsPinned": true,
+              "WhenOpened": "2025-08-06T19:39:23.741Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\ahmed\\source\\repos\\MyApp\\MyApp\\Views\\Items\\Delete.cshtml",
-              "RelativeDocumentMoniker": "MyApp\\Views\\Items\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\ahmed\\source\\repos\\MyApp\\MyApp\\Views\\Items\\Delete.cshtml",
-              "RelativeToolTip": "MyApp\\Views\\Items\\Delete.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-05T01:26:01.301Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "MyAppContext.cs",
               "DocumentMoniker": "C:\\Users\\ahmed\\source\\repos\\MyApp\\MyApp\\Data\\MyAppContext.cs",
               "RelativeDocumentMoniker": "MyApp\\Data\\MyAppContext.cs",
               "ToolTip": "C:\\Users\\ahmed\\source\\repos\\MyApp\\MyApp\\Data\\MyAppContext.cs",
               "RelativeToolTip": "MyApp\\Data\\MyAppContext.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAQwB8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-05T02:07:33.798Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "20250805211022_One to Many.cs",
-              "DocumentMoniker": "C:\\Users\\ahmed\\source\\repos\\MyApp\\MyApp\\Migrations\\20250805211022_One to Many.cs",
-              "RelativeDocumentMoniker": "MyApp\\Migrations\\20250805211022_One to Many.cs",
-              "ToolTip": "C:\\Users\\ahmed\\source\\repos\\MyApp\\MyApp\\Migrations\\20250805211022_One to Many.cs",
-              "RelativeToolTip": "MyApp\\Migrations\\20250805211022_One to Many.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-05T21:10:22.297Z",
+              "WhenOpened": "2025-08-06T19:20:08.681Z",
               "EditorCaption": ""
             }
           ]

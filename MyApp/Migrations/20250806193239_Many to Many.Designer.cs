@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using MyApp.Data;
 
@@ -10,9 +11,11 @@ using MyApp.Data;
 namespace MyApp.Migrations
 {
     [DbContext(typeof(MyAppContext))]
-    partial class MyAppContextModelSnapshot : ModelSnapshot
+    [Migration("20250806193239_Many to Many")]
+    partial class ManytoMany
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -113,12 +116,12 @@ namespace MyApp.Migrations
                     b.Property<int>("ItemId")
                         .HasColumnType("int");
 
-                    b.Property<int>("ClientId")
+                    b.Property<int>("ClientID")
                         .HasColumnType("int");
 
-                    b.HasKey("ItemId", "ClientId");
+                    b.HasKey("ItemId", "ClientID");
 
-                    b.HasIndex("ClientId");
+                    b.HasIndex("ClientID");
 
                     b.ToTable("ItemClients");
                 });
@@ -168,7 +171,7 @@ namespace MyApp.Migrations
                 {
                     b.HasOne("MyApp.Models.Client", "Client")
                         .WithMany("ItemClients")
-                        .HasForeignKey("ClientId")
+                        .HasForeignKey("ClientID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 

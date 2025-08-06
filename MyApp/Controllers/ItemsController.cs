@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using MyApp.Data;
 using MyApp.Models;
@@ -18,10 +19,13 @@ namespace MyApp.Controllers
         public async Task<IActionResult> Index()
         {
             var item = await _context.Items.Include(s => s.SerialNumber)
-                                                    .Include(c=> c.Category)
-                                                    .ToListAsync();
+                                            .Include(c => c.Category)
+                                            .Include(ic => ic.ItemClients)
+                                            .ThenInclude(c => c.Client)
+                                            .ToListAsync();
             return View(item);
         }
+
         // Action method to display the details of a specific item
         public IActionResult Details(int id)
         {
@@ -36,12 +40,14 @@ namespace MyApp.Controllers
         // Action method to display the form for creating a new item
         public IActionResult Create()
         {
+            // To prepare a list of categories for a dropdown menu in your razor page or create view in my case.
+            ViewData["Categories"]= new SelectList(_context.Categories, "Id", "Name");
             return View();
         }
 
         // Action method to handle the form submission for creating a new item
         [HttpPost]
-        public async Task<IActionResult> Create([Bind("Id, Name, Price")] Item item)
+        public async Task<IActionResult> Create([Bind("Id, Name, Price, CategoryId")] Item item)
         {
             if (ModelState.IsValid)
             {
@@ -54,6 +60,7 @@ namespace MyApp.Controllers
         [HttpGet]
         public async Task<IActionResult> Edit(int id)
         {
+            ViewData["Categories"] = new SelectList(_context.Categories, "Id", "Name");
             var item = await _context.Items.FirstOrDefaultAsync(x=>x.Id == id);
             if (item == null)
             {
@@ -63,7 +70,7 @@ namespace MyApp.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Edit(int id, [Bind("Id, Name, Price")] Item item)
+        public async Task<IActionResult> Edit(int id, [Bind("Id, Name, Price, CategoryId")] Item item)
         {
             if (id != item.Id)
             {

@@ -13,5 +13,6 @@ namespace MyApp.Models
         public int? CategoryId { get; set; } // Foreign key to link to a Category
         [ForeignKey("CategoryId")]
         public Category? Category { get; set; } // Navigation property to the related Category
+        public List<ItemClient>? ItemClients { get; set; }
     }
 }
